@@ -9,34 +9,19 @@ import Foundation
 
 extension Theme {
     enum Constants {
-        /// Default corner radius size
-        static let defaultCornerRadius: CGFloat = 16
-
         /// Normal corner radius size
         static let normalCornerRadius: CGFloat = 8
 
-        /// Small shadow opacity 20%
-        static let smallShadowOpacity: Double = 0.2
+        /// Small layout opacity 20%
+        static let smallLayoutOpacity: Double = 0.2
 
-        /// Half shadow opacity 50%
-        static let halfShadowOpacity: Double = 0.5
+        /// transaction Row Background Opacity 50%
+        static let transactionRowBackgroundOpacity: Double = 0.5
 
-        enum ConvertorView {
-            static let smallFlagSize: CGSize = CGSize(width: 24, height: 24)
-            static let yOffsetForTopRectangle: CGFloat = 25
-            static let yOffsetForReverseButton: CGFloat = 35
-            static let yOffsetForCurrencyText: CGFloat = 32
-        }
+        // 2 Line limit
+        static let lineLimitTwo: Int = 2
 
-        enum ConvertorForm {
-            static let maxTextFieldCount: Int = 6
-        }
-
-        enum CountryPickerView {
-            static let handleSize: CGSize = CGSize(width: 32, height: 4)
-            static let flagSize: CGSize = CGSize(width: 34, height: 24)
-            static let flagBackgroundSize: CGSize = CGSize(width: 48, height: 48)
-            static let imageHeight: CGFloat = 234
-        }
+        // 1 Line limit
+        static let lineLimitOne: Int = 1
     }
 }

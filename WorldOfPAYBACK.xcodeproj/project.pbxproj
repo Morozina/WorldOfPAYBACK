@@ -45,6 +45,10 @@
 		18EAD5C52B6C4BB80035E40D /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5C42B6C4BB80035E40D /* DateHelper.swift */; };
 		18EAD5C72B6C4C050035E40D /* PBTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EAD5C62B6C4C050035E40D /* PBTransactions.json */; };
 		18EAD5CA2B6C4C3F0035E40D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5C92B6C4C3F0035E40D /* Array+Extension.swift */; };
+		18EAD5CC2B6C4D0B0035E40D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5CB2B6C4D0B0035E40D /* String+Extension.swift */; };
+		18EAD5CF2B6C4E180035E40D /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5CE2B6C4E180035E40D /* TransactionRow.swift */; };
+		18EAD5D22B6C4EE20035E40D /* RowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5D12B6C4EE20035E40D /* RowCard.swift */; };
+		18EAD5D42B6C4F290035E40D /* DescriptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5D32B6C4F290035E40D /* DescriptionCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +91,10 @@
 		18EAD5C42B6C4BB80035E40D /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		18EAD5C62B6C4C050035E40D /* PBTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PBTransactions.json; sourceTree = "<group>"; };
 		18EAD5C92B6C4C3F0035E40D /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		18EAD5CB2B6C4D0B0035E40D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		18EAD5CE2B6C4E180035E40D /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		18EAD5D12B6C4EE20035E40D /* RowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCard.swift; sourceTree = "<group>"; };
+		18EAD5D32B6C4F290035E40D /* DescriptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +202,7 @@
 		18EAD5732B6C433D0035E40D /* General */ = {
 			isa = PBXGroup;
 			children = (
+				18EAD5D02B6C4ED10035E40D /* Modifiers */,
 				18EAD5C82B6C4C330035E40D /* Extensions */,
 				18EAD5BF2B6C4B590035E40D /* Utils */,
 				18EAD57B2B6C43970035E40D /* Theme */,
@@ -214,6 +223,7 @@
 		18EAD5752B6C43560035E40D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18EAD5CD2B6C4E090035E40D /* TransactionRowCard */,
 				18EAD5762B6C435B0035E40D /* Navigation View */,
 			);
 			path = Views;
@@ -357,8 +367,26 @@
 			isa = PBXGroup;
 			children = (
 				18EAD5C92B6C4C3F0035E40D /* Array+Extension.swift */,
+				18EAD5CB2B6C4D0B0035E40D /* String+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18EAD5CD2B6C4E090035E40D /* TransactionRowCard */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5CE2B6C4E180035E40D /* TransactionRow.swift */,
+			);
+			path = TransactionRowCard;
+			sourceTree = "<group>";
+		};
+		18EAD5D02B6C4ED10035E40D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5D12B6C4EE20035E40D /* RowCard.swift */,
+				18EAD5D32B6C4F290035E40D /* DescriptionCard.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,11 +470,13 @@
 				18EAD5B52B6C4A000035E40D /* RequestManager.swift in Sources */,
 				18EAD5C12B6C4B750035E40D /* AppUserDefaultsKeys.swift in Sources */,
 				18EAD5C52B6C4BB80035E40D /* DateHelper.swift in Sources */,
+				18EAD5CF2B6C4E180035E40D /* TransactionRow.swift in Sources */,
 				18EAD5AC2B6C49570035E40D /* TransactionsRequest.swift in Sources */,
 				18EAD5CA2B6C4C3F0035E40D /* Array+Extension.swift in Sources */,
 				18EAD5BC2B6C4ADF0035E40D /* RequestProtocol.swift in Sources */,
 				18EAD59D2B6C47C90035E40D /* Value.swift in Sources */,
 				18EAD59B2B6C47C30035E40D /* TransactionsContainer.swift in Sources */,
+				18EAD5D22B6C4EE20035E40D /* RowCard.swift in Sources */,
 				18EAD5A42B6C48610035E40D /* APIConstants.swift in Sources */,
 				18EAD5B22B6C49D40035E40D /* DataParser.swift in Sources */,
 				18EAD5802B6C43FE0035E40D /* Theme+Dimensions.swift in Sources */,
@@ -459,7 +489,9 @@
 				18EAD5C32B6C4B860035E40D /* NetworkMonitor.swift in Sources */,
 				18EAD5542B6C3FE30035E40D /* WorldOfPAYBACKApp.swift in Sources */,
 				18EAD5A12B6C47E10035E40D /* IdentifiableTransaction.swift in Sources */,
+				18EAD5D42B6C4F290035E40D /* DescriptionCard.swift in Sources */,
 				18EAD5B72B6C4A3F0035E40D /* APIManager.swift in Sources */,
+				18EAD5CC2B6C4D0B0035E40D /* String+Extension.swift in Sources */,
 				18EAD5AF2B6C498B0035E40D /* AuthTokenRequest.swift in Sources */,
 				18EAD5A92B6C48BB0035E40D /* AccessTokenManager.swift in Sources */,
 				18EAD5992B6C47BD0035E40D /* TransactionDetail.swift in Sources */,
