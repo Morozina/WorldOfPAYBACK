@@ -15,11 +15,9 @@ struct MainView: View {
         RouterView(router: router) { path in
             switch path {
             case .dashboard:
-                DashboardView()
+                DashboardView(viewModel: DashboardViewModel())
             case .transaction:
                 TransactionsView()
-            case .filter:
-                FilterView()
             }
         }
     }

@@ -23,6 +23,8 @@ extension Theme {
         static let boldl10: Font = .system(size: 10, weight: .bold)
 
         // MARK: - Normal
+        static let normal56: Font = .system(size: 56)
+
         static let normal14: Font = .system(size: 14)
 
         static let normal12: Font = .system(size: 12)

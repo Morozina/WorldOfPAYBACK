@@ -8,20 +8,82 @@
 import SwiftUI
 
 struct DashboardView: View {
+    // MARK: - View Model
+    @StateObject var viewModel: DashboardViewModel
+
+    // MARK: - Network Monitor
+    @ObservedObject var monitor = NetworkMonitor()
+
+    // MARK: - Router
     @EnvironmentObject var router: Router
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        Button("Filter") {
-            router.push(to: .filter)
-        }
-
-        Button("Transactions") {
-            router.push(to: .transaction)
+        if monitor.isConnected {
+            MainContentSection
+        } else {
+            InternetConnectionView()
         }
     }
+
+    var MainContentSection: some View {
+        List {
+            HeaderSection
+            CardsSection
+        }
+        .task {
+            await viewModel.onAppear()
+        }
+        .refreshable {
+            await viewModel.fetchTransactions()
+        }
+        .listStyle(PlainListStyle()) 
+        .listRowSeparator(.hidden)
+        .navigationTitle("Transaction-List-Title")
+        .toolbar {
+            ToolbarItem {
+                ToolBarButton
+            }
+        }
+        .overlay {
+            if viewModel.isLoading && viewModel.fetchedTransactions.isEmpty {
+                ProgressView("Fetching-Transactions-Text")
+            }
+        }
+    }
+
+    var HeaderSection: some View {
+        HStack{
+            Text("Transactions-Sum")
+                .bold()
+                .font(Theme.Fonts.boldl18)
+                .lineLimit(Theme.Constants.lineLimitOne)
+            Text("\(viewModel.sumOfTransactions)")
+                .modifier(TransactionSum(color: .orange))
+        }
+    }
+
+    var CardsSection: some View {
+        ForEach(viewModel.filteredTransactions, id: \.id) { item in
+            Button {
+                router.push(to: .transaction(transactionItem: item.transaction))
+            } label: {
+                TransactionsRawView(transaction: item.transaction)
+            }
+        }
+    }
+
+    var ToolBarButton: some View {
+            Button {
+                viewModel.filterPickerIsPresented.toggle()
+            } label: {
+                Label("Filter", systemImage: "slider.horizontal.3")
+            }
+            .sheet(isPresented: $viewModel.filterPickerIsPresented) {
+                FilterView()
+            }
+        }
 }
 
 #Preview {
-    DashboardView()
+    DashboardView(viewModel: DashboardViewModel())
 }

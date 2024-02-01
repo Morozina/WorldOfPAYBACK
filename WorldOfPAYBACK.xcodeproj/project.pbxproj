@@ -49,6 +49,12 @@
 		18EAD5CF2B6C4E180035E40D /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5CE2B6C4E180035E40D /* TransactionRow.swift */; };
 		18EAD5D22B6C4EE20035E40D /* RowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5D12B6C4EE20035E40D /* RowCard.swift */; };
 		18EAD5D42B6C4F290035E40D /* DescriptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5D32B6C4F290035E40D /* DescriptionCard.swift */; };
+		18EAD5D72B6C55950035E40D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5D62B6C55950035E40D /* DashboardViewModel.swift */; };
+		18EAD5DA2B6C56390035E40D /* TransactionsFetcherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5D92B6C56390035E40D /* TransactionsFetcherMock.swift */; };
+		18EAD5DC2B6C568E0035E40D /* FetchTransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5DB2B6C568E0035E40D /* FetchTransactionService.swift */; };
+		18EAD5DF2B6C56D80035E40D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5DE2B6C56D80035E40D /* Category.swift */; };
+		18EAD5E22B6C57F00035E40D /* TransactionsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5E12B6C57F00035E40D /* TransactionsSum.swift */; };
+		18EAD5E52B6C59410035E40D /* InternetConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5E42B6C59410035E40D /* InternetConnectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +101,12 @@
 		18EAD5CE2B6C4E180035E40D /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		18EAD5D12B6C4EE20035E40D /* RowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCard.swift; sourceTree = "<group>"; };
 		18EAD5D32B6C4F290035E40D /* DescriptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCard.swift; sourceTree = "<group>"; };
+		18EAD5D62B6C55950035E40D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		18EAD5D92B6C56390035E40D /* TransactionsFetcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsFetcherMock.swift; sourceTree = "<group>"; };
+		18EAD5DB2B6C568E0035E40D /* FetchTransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTransactionService.swift; sourceTree = "<group>"; };
+		18EAD5DE2B6C56D80035E40D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		18EAD5E12B6C57F00035E40D /* TransactionsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsSum.swift; sourceTree = "<group>"; };
+		18EAD5E42B6C59410035E40D /* InternetConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +190,9 @@
 		18EAD56A2B6C420F0035E40D /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				18EAD5DD2B6C56CF0035E40D /* Model */,
+				18EAD5D82B6C562D0035E40D /* Services */,
+				18EAD5D52B6C55890035E40D /* ViewModel */,
 				18EAD56B2B6C421A0035E40D /* DashboardView.swift */,
 			);
 			path = Dashboard;
@@ -223,6 +238,7 @@
 		18EAD5752B6C43560035E40D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18EAD5E32B6C59330035E40D /* InternetConnection View */,
 				18EAD5CD2B6C4E090035E40D /* TransactionRowCard */,
 				18EAD5762B6C435B0035E40D /* Navigation View */,
 			);
@@ -384,9 +400,43 @@
 			isa = PBXGroup;
 			children = (
 				18EAD5D12B6C4EE20035E40D /* RowCard.swift */,
+				18EAD5E12B6C57F00035E40D /* TransactionsSum.swift */,
 				18EAD5D32B6C4F290035E40D /* DescriptionCard.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		18EAD5D52B6C55890035E40D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5D62B6C55950035E40D /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18EAD5D82B6C562D0035E40D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5D92B6C56390035E40D /* TransactionsFetcherMock.swift */,
+				18EAD5DB2B6C568E0035E40D /* FetchTransactionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		18EAD5DD2B6C56CF0035E40D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5DE2B6C56D80035E40D /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EAD5E32B6C59330035E40D /* InternetConnection View */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5E42B6C59410035E40D /* InternetConnectionView.swift */,
+			);
+			path = "InternetConnection View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,9 +512,11 @@
 			files = (
 				18EAD59F2B6C47D90035E40D /* TransactionMock.swift in Sources */,
 				18EAD5B92B6C4A710035E40D /* NetworkError.swift in Sources */,
+				18EAD5DA2B6C56390035E40D /* TransactionsFetcherMock.swift in Sources */,
 				18EAD5672B6C41B80035E40D /* Router.swift in Sources */,
 				18EAD5832B6C43FE0035E40D /* Theme+Colors.swift in Sources */,
 				18EAD5782B6C436B0035E40D /* NavigationView.swift in Sources */,
+				18EAD5E22B6C57F00035E40D /* TransactionsSum.swift in Sources */,
 				18EAD56C2B6C421A0035E40D /* DashboardView.swift in Sources */,
 				18EAD5652B6C41540035E40D /* RouterView.swift in Sources */,
 				18EAD5B52B6C4A000035E40D /* RequestManager.swift in Sources */,
@@ -482,15 +534,18 @@
 				18EAD5802B6C43FE0035E40D /* Theme+Dimensions.swift in Sources */,
 				18EAD5BE2B6C4B180035E40D /* RequestType.swift in Sources */,
 				18EAD5A72B6C48940035E40D /* APIToken.swift in Sources */,
+				18EAD5DC2B6C568E0035E40D /* FetchTransactionService.swift in Sources */,
 				18EAD5952B6C47A90035E40D /* Alias.swift in Sources */,
 				18EAD5562B6C3FE30035E40D /* MainView.swift in Sources */,
 				18EAD5722B6C423F0035E40D /* FilterView.swift in Sources */,
 				18EAD5822B6C43FE0035E40D /* Theme+Constants.swift in Sources */,
 				18EAD5C32B6C4B860035E40D /* NetworkMonitor.swift in Sources */,
 				18EAD5542B6C3FE30035E40D /* WorldOfPAYBACKApp.swift in Sources */,
+				18EAD5E52B6C59410035E40D /* InternetConnectionView.swift in Sources */,
 				18EAD5A12B6C47E10035E40D /* IdentifiableTransaction.swift in Sources */,
 				18EAD5D42B6C4F290035E40D /* DescriptionCard.swift in Sources */,
 				18EAD5B72B6C4A3F0035E40D /* APIManager.swift in Sources */,
+				18EAD5D72B6C55950035E40D /* DashboardViewModel.swift in Sources */,
 				18EAD5CC2B6C4D0B0035E40D /* String+Extension.swift in Sources */,
 				18EAD5AF2B6C498B0035E40D /* AuthTokenRequest.swift in Sources */,
 				18EAD5A92B6C48BB0035E40D /* AccessTokenManager.swift in Sources */,
@@ -499,6 +554,7 @@
 				18EAD5692B6C41DB0035E40D /* AppRoute.swift in Sources */,
 				18EAD56F2B6C42340035E40D /* TransactionsView.swift in Sources */,
 				18EAD5972B6C47B10035E40D /* Transaction.swift in Sources */,
+				18EAD5DF2B6C56D80035E40D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,13 +17,13 @@ struct TransactionsRawView: View {
             VStack(alignment: .leading, spacing: .zero) {
                 Text(transaction.partnerDisplayName)
                     .font(Theme.Fonts.boldl18)
+                    .foregroundColor(.black)
                     .lineLimit(Theme.Constants.lineLimitTwo)
                     .frame(alignment: .leading)
                     .fixedSize(horizontal: false, vertical: true)
                 Text(transaction.transactionDetail.description ?? "")
-                    .modifier((transaction.transactionDetail.description != nil) ?
-                              DescriptionCard(color: .cyan) :
-                                DescriptionCard(color: .white.opacity(Theme.Constants.smallLayoutOpacity)))
+                    .font(Theme.Fonts.normal12)
+                    .foregroundColor(.gray)
             }
             Spacer()
             HStack(spacing: .zero) {
@@ -41,6 +41,7 @@ struct TransactionsRawView: View {
                         .lineLimit(Theme.Constants.lineLimitOne)
                     Text(transaction.transactionDetail.value.currency)
                         .font(Theme.Fonts.boldl16)
+                        .foregroundColor(.black)
                         .lineLimit(Theme.Constants.lineLimitOne)
                 }
             }

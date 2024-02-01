@@ -30,9 +30,9 @@ struct RouterView<content: View>: View {
     RouterView(router: Router(root: .dashboard)) { path in
         switch path {
         case .dashboard:
-            DashboardView()
+            DashboardView(viewModel: DashboardViewModel())
         default:
-            DashboardView()
+            DashboardView(viewModel: DashboardViewModel())
         }
     }
 }

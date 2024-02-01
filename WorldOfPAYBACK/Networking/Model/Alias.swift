@@ -7,6 +7,10 @@
 
 import Foundation
 
-struct Alias: Codable {
+struct Alias: Codable, Hashable {
     let reference: String
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(reference)
+    }
 }
