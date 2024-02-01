@@ -22,6 +22,29 @@
 		18EAD5812B6C43FE0035E40D /* Theme+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD57D2B6C43FE0035E40D /* Theme+Fonts.swift */; };
 		18EAD5822B6C43FE0035E40D /* Theme+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD57E2B6C43FE0035E40D /* Theme+Constants.swift */; };
 		18EAD5832B6C43FE0035E40D /* Theme+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD57F2B6C43FE0035E40D /* Theme+Colors.swift */; };
+		18EAD5952B6C47A90035E40D /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5942B6C47A90035E40D /* Alias.swift */; };
+		18EAD5972B6C47B10035E40D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5962B6C47B10035E40D /* Transaction.swift */; };
+		18EAD5992B6C47BD0035E40D /* TransactionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5982B6C47BD0035E40D /* TransactionDetail.swift */; };
+		18EAD59B2B6C47C30035E40D /* TransactionsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD59A2B6C47C30035E40D /* TransactionsContainer.swift */; };
+		18EAD59D2B6C47C90035E40D /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD59C2B6C47C90035E40D /* Value.swift */; };
+		18EAD59F2B6C47D90035E40D /* TransactionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD59E2B6C47D90035E40D /* TransactionMock.swift */; };
+		18EAD5A12B6C47E10035E40D /* IdentifiableTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5A02B6C47E00035E40D /* IdentifiableTransaction.swift */; };
+		18EAD5A42B6C48610035E40D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5A32B6C48610035E40D /* APIConstants.swift */; };
+		18EAD5A72B6C48940035E40D /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5A62B6C48940035E40D /* APIToken.swift */; };
+		18EAD5A92B6C48BB0035E40D /* AccessTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5A82B6C48BB0035E40D /* AccessTokenManager.swift */; };
+		18EAD5AC2B6C49570035E40D /* TransactionsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5AB2B6C49570035E40D /* TransactionsRequest.swift */; };
+		18EAD5AF2B6C498B0035E40D /* AuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5AE2B6C498B0035E40D /* AuthTokenRequest.swift */; };
+		18EAD5B22B6C49D40035E40D /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5B12B6C49D40035E40D /* DataParser.swift */; };
+		18EAD5B52B6C4A000035E40D /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5B42B6C4A000035E40D /* RequestManager.swift */; };
+		18EAD5B72B6C4A3F0035E40D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5B62B6C4A3F0035E40D /* APIManager.swift */; };
+		18EAD5B92B6C4A710035E40D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5B82B6C4A710035E40D /* NetworkError.swift */; };
+		18EAD5BC2B6C4ADF0035E40D /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5BB2B6C4ADF0035E40D /* RequestProtocol.swift */; };
+		18EAD5BE2B6C4B180035E40D /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5BD2B6C4B180035E40D /* RequestType.swift */; };
+		18EAD5C12B6C4B750035E40D /* AppUserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5C02B6C4B750035E40D /* AppUserDefaultsKeys.swift */; };
+		18EAD5C32B6C4B860035E40D /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5C22B6C4B860035E40D /* NetworkMonitor.swift */; };
+		18EAD5C52B6C4BB80035E40D /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5C42B6C4BB80035E40D /* DateHelper.swift */; };
+		18EAD5C72B6C4C050035E40D /* PBTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EAD5C62B6C4C050035E40D /* PBTransactions.json */; };
+		18EAD5CA2B6C4C3F0035E40D /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5C92B6C4C3F0035E40D /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +64,29 @@
 		18EAD57D2B6C43FE0035E40D /* Theme+Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Fonts.swift"; sourceTree = "<group>"; };
 		18EAD57E2B6C43FE0035E40D /* Theme+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Constants.swift"; sourceTree = "<group>"; };
 		18EAD57F2B6C43FE0035E40D /* Theme+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Colors.swift"; sourceTree = "<group>"; };
+		18EAD5942B6C47A90035E40D /* Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alias.swift; sourceTree = "<group>"; };
+		18EAD5962B6C47B10035E40D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		18EAD5982B6C47BD0035E40D /* TransactionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetail.swift; sourceTree = "<group>"; };
+		18EAD59A2B6C47C30035E40D /* TransactionsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsContainer.swift; sourceTree = "<group>"; };
+		18EAD59C2B6C47C90035E40D /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		18EAD59E2B6C47D90035E40D /* TransactionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionMock.swift; sourceTree = "<group>"; };
+		18EAD5A02B6C47E00035E40D /* IdentifiableTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableTransaction.swift; sourceTree = "<group>"; };
+		18EAD5A32B6C48610035E40D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		18EAD5A62B6C48940035E40D /* APIToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
+		18EAD5A82B6C48BB0035E40D /* AccessTokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenManager.swift; sourceTree = "<group>"; };
+		18EAD5AB2B6C49570035E40D /* TransactionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsRequest.swift; sourceTree = "<group>"; };
+		18EAD5AE2B6C498B0035E40D /* AuthTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenRequest.swift; sourceTree = "<group>"; };
+		18EAD5B12B6C49D40035E40D /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		18EAD5B42B6C4A000035E40D /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		18EAD5B62B6C4A3F0035E40D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		18EAD5B82B6C4A710035E40D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		18EAD5BB2B6C4ADF0035E40D /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		18EAD5BD2B6C4B180035E40D /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		18EAD5C02B6C4B750035E40D /* AppUserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaultsKeys.swift; sourceTree = "<group>"; };
+		18EAD5C22B6C4B860035E40D /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		18EAD5C42B6C4BB80035E40D /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		18EAD5C62B6C4C050035E40D /* PBTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PBTransactions.json; sourceTree = "<group>"; };
+		18EAD5C92B6C4C3F0035E40D /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +119,7 @@
 		18EAD5522B6C3FE30035E40D /* WorldOfPAYBACK */ = {
 			isa = PBXGroup;
 			children = (
+				18EAD5842B6C45640035E40D /* Networking */,
 				18EAD5742B6C434E0035E40D /* UI Components */,
 				18EAD5732B6C433D0035E40D /* General */,
 				18EAD5612B6C412E0035E40D /* Features */,
@@ -85,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				18EAD55A2B6C3FE40035E40D /* Preview Assets.xcassets */,
+				18EAD5C62B6C4C050035E40D /* PBTransactions.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -146,6 +194,8 @@
 		18EAD5732B6C433D0035E40D /* General */ = {
 			isa = PBXGroup;
 			children = (
+				18EAD5C82B6C4C330035E40D /* Extensions */,
+				18EAD5BF2B6C4B590035E40D /* Utils */,
 				18EAD57B2B6C43970035E40D /* Theme */,
 				18EAD57A2B6C438E0035E40D /* Initial View */,
 				18EAD5792B6C43890035E40D /* Assets */,
@@ -202,6 +252,113 @@
 				18EAD57D2B6C43FE0035E40D /* Theme+Fonts.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		18EAD5842B6C45640035E40D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5A22B6C48490035E40D /* API */,
+				18EAD5852B6C47380035E40D /* Model */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18EAD5852B6C47380035E40D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5942B6C47A90035E40D /* Alias.swift */,
+				18EAD5962B6C47B10035E40D /* Transaction.swift */,
+				18EAD5982B6C47BD0035E40D /* TransactionDetail.swift */,
+				18EAD59A2B6C47C30035E40D /* TransactionsContainer.swift */,
+				18EAD59C2B6C47C90035E40D /* Value.swift */,
+				18EAD59E2B6C47D90035E40D /* TransactionMock.swift */,
+				18EAD5A02B6C47E00035E40D /* IdentifiableTransaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EAD5A22B6C48490035E40D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5BA2B6C4AD80035E40D /* Request */,
+				18EAD5B32B6C49EE0035E40D /* Network */,
+				18EAD5B02B6C49C00035E40D /* Parser */,
+				18EAD5AD2B6C49850035E40D /* Auth */,
+				18EAD5AA2B6C494D0035E40D /* Transactions */,
+				18EAD5A52B6C48820035E40D /* Token */,
+				18EAD5A32B6C48610035E40D /* APIConstants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		18EAD5A52B6C48820035E40D /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5A62B6C48940035E40D /* APIToken.swift */,
+				18EAD5A82B6C48BB0035E40D /* AccessTokenManager.swift */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
+		18EAD5AA2B6C494D0035E40D /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5AB2B6C49570035E40D /* TransactionsRequest.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		18EAD5AD2B6C49850035E40D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5AE2B6C498B0035E40D /* AuthTokenRequest.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		18EAD5B02B6C49C00035E40D /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5B12B6C49D40035E40D /* DataParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		18EAD5B32B6C49EE0035E40D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5B42B6C4A000035E40D /* RequestManager.swift */,
+				18EAD5B62B6C4A3F0035E40D /* APIManager.swift */,
+				18EAD5B82B6C4A710035E40D /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18EAD5BA2B6C4AD80035E40D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5BB2B6C4ADF0035E40D /* RequestProtocol.swift */,
+				18EAD5BD2B6C4B180035E40D /* RequestType.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		18EAD5BF2B6C4B590035E40D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5C02B6C4B750035E40D /* AppUserDefaultsKeys.swift */,
+				18EAD5C22B6C4B860035E40D /* NetworkMonitor.swift */,
+				18EAD5C42B6C4BB80035E40D /* DateHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18EAD5C82B6C4C330035E40D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5C92B6C4C3F0035E40D /* Array+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EAD55B2B6C3FE40035E40D /* Preview Assets.xcassets in Resources */,
+				18EAD5C72B6C4C050035E40D /* PBTransactions.json in Resources */,
 				18EAD5582B6C3FE40035E40D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,19 +432,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EAD59F2B6C47D90035E40D /* TransactionMock.swift in Sources */,
+				18EAD5B92B6C4A710035E40D /* NetworkError.swift in Sources */,
 				18EAD5672B6C41B80035E40D /* Router.swift in Sources */,
 				18EAD5832B6C43FE0035E40D /* Theme+Colors.swift in Sources */,
 				18EAD5782B6C436B0035E40D /* NavigationView.swift in Sources */,
 				18EAD56C2B6C421A0035E40D /* DashboardView.swift in Sources */,
 				18EAD5652B6C41540035E40D /* RouterView.swift in Sources */,
+				18EAD5B52B6C4A000035E40D /* RequestManager.swift in Sources */,
+				18EAD5C12B6C4B750035E40D /* AppUserDefaultsKeys.swift in Sources */,
+				18EAD5C52B6C4BB80035E40D /* DateHelper.swift in Sources */,
+				18EAD5AC2B6C49570035E40D /* TransactionsRequest.swift in Sources */,
+				18EAD5CA2B6C4C3F0035E40D /* Array+Extension.swift in Sources */,
+				18EAD5BC2B6C4ADF0035E40D /* RequestProtocol.swift in Sources */,
+				18EAD59D2B6C47C90035E40D /* Value.swift in Sources */,
+				18EAD59B2B6C47C30035E40D /* TransactionsContainer.swift in Sources */,
+				18EAD5A42B6C48610035E40D /* APIConstants.swift in Sources */,
+				18EAD5B22B6C49D40035E40D /* DataParser.swift in Sources */,
 				18EAD5802B6C43FE0035E40D /* Theme+Dimensions.swift in Sources */,
+				18EAD5BE2B6C4B180035E40D /* RequestType.swift in Sources */,
+				18EAD5A72B6C48940035E40D /* APIToken.swift in Sources */,
+				18EAD5952B6C47A90035E40D /* Alias.swift in Sources */,
 				18EAD5562B6C3FE30035E40D /* MainView.swift in Sources */,
 				18EAD5722B6C423F0035E40D /* FilterView.swift in Sources */,
 				18EAD5822B6C43FE0035E40D /* Theme+Constants.swift in Sources */,
+				18EAD5C32B6C4B860035E40D /* NetworkMonitor.swift in Sources */,
 				18EAD5542B6C3FE30035E40D /* WorldOfPAYBACKApp.swift in Sources */,
+				18EAD5A12B6C47E10035E40D /* IdentifiableTransaction.swift in Sources */,
+				18EAD5B72B6C4A3F0035E40D /* APIManager.swift in Sources */,
+				18EAD5AF2B6C498B0035E40D /* AuthTokenRequest.swift in Sources */,
+				18EAD5A92B6C48BB0035E40D /* AccessTokenManager.swift in Sources */,
+				18EAD5992B6C47BD0035E40D /* TransactionDetail.swift in Sources */,
 				18EAD5812B6C43FE0035E40D /* Theme+Fonts.swift in Sources */,
 				18EAD5692B6C41DB0035E40D /* AppRoute.swift in Sources */,
 				18EAD56F2B6C42340035E40D /* TransactionsView.swift in Sources */,
+				18EAD5972B6C47B10035E40D /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
