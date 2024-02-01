@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		18EAD5542B6C3FE30035E40D /* WorldOfPAYBACKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5532B6C3FE30035E40D /* WorldOfPAYBACKApp.swift */; };
-		18EAD5562B6C3FE30035E40D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5552B6C3FE30035E40D /* ContentView.swift */; };
+		18EAD5562B6C3FE30035E40D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5552B6C3FE30035E40D /* MainView.swift */; };
 		18EAD5582B6C3FE40035E40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EAD5572B6C3FE40035E40D /* Assets.xcassets */; };
 		18EAD55B2B6C3FE40035E40D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EAD55A2B6C3FE40035E40D /* Preview Assets.xcassets */; };
+		18EAD5652B6C41540035E40D /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5642B6C41540035E40D /* RouterView.swift */; };
+		18EAD5672B6C41B80035E40D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5662B6C41B80035E40D /* Router.swift */; };
+		18EAD5692B6C41DB0035E40D /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5682B6C41DB0035E40D /* AppRoute.swift */; };
+		18EAD56C2B6C421A0035E40D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD56B2B6C421A0035E40D /* DashboardView.swift */; };
+		18EAD56F2B6C42340035E40D /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD56E2B6C42340035E40D /* TransactionsView.swift */; };
+		18EAD5722B6C423F0035E40D /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5712B6C423F0035E40D /* FilterView.swift */; };
+		18EAD5782B6C436B0035E40D /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD5772B6C436B0035E40D /* NavigationView.swift */; };
+		18EAD5802B6C43FE0035E40D /* Theme+Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD57C2B6C43FE0035E40D /* Theme+Dimensions.swift */; };
+		18EAD5812B6C43FE0035E40D /* Theme+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD57D2B6C43FE0035E40D /* Theme+Fonts.swift */; };
+		18EAD5822B6C43FE0035E40D /* Theme+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD57E2B6C43FE0035E40D /* Theme+Constants.swift */; };
+		18EAD5832B6C43FE0035E40D /* Theme+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD57F2B6C43FE0035E40D /* Theme+Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18EAD5502B6C3FE30035E40D /* WorldOfPAYBACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAD5532B6C3FE30035E40D /* WorldOfPAYBACKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACKApp.swift; sourceTree = "<group>"; };
-		18EAD5552B6C3FE30035E40D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18EAD5552B6C3FE30035E40D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		18EAD5572B6C3FE40035E40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EAD55A2B6C3FE40035E40D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18EAD5642B6C41540035E40D /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		18EAD5662B6C41B80035E40D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		18EAD5682B6C41DB0035E40D /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		18EAD56B2B6C421A0035E40D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		18EAD56E2B6C42340035E40D /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		18EAD5712B6C423F0035E40D /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		18EAD5772B6C436B0035E40D /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		18EAD57C2B6C43FE0035E40D /* Theme+Dimensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Dimensions.swift"; sourceTree = "<group>"; };
+		18EAD57D2B6C43FE0035E40D /* Theme+Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Fonts.swift"; sourceTree = "<group>"; };
+		18EAD57E2B6C43FE0035E40D /* Theme+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Constants.swift"; sourceTree = "<group>"; };
+		18EAD57F2B6C43FE0035E40D /* Theme+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Colors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +73,9 @@
 		18EAD5522B6C3FE30035E40D /* WorldOfPAYBACK */ = {
 			isa = PBXGroup;
 			children = (
-				18EAD5532B6C3FE30035E40D /* WorldOfPAYBACKApp.swift */,
-				18EAD5552B6C3FE30035E40D /* ContentView.swift */,
-				18EAD5572B6C3FE40035E40D /* Assets.xcassets */,
+				18EAD5742B6C434E0035E40D /* UI Components */,
+				18EAD5732B6C433D0035E40D /* General */,
+				18EAD5612B6C412E0035E40D /* Features */,
 				18EAD5592B6C3FE40035E40D /* Preview Content */,
 			);
 			path = WorldOfPAYBACK;
@@ -65,6 +87,121 @@
 				18EAD55A2B6C3FE40035E40D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18EAD5612B6C412E0035E40D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5702B6C423A0035E40D /* FilterView */,
+				18EAD56D2B6C421F0035E40D /* TransactionsView */,
+				18EAD56A2B6C420F0035E40D /* Dashboard */,
+				18EAD5632B6C41410035E40D /* Router */,
+				18EAD5622B6C41350035E40D /* MainView */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		18EAD5622B6C41350035E40D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5552B6C3FE30035E40D /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		18EAD5632B6C41410035E40D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5642B6C41540035E40D /* RouterView.swift */,
+				18EAD5662B6C41B80035E40D /* Router.swift */,
+				18EAD5682B6C41DB0035E40D /* AppRoute.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		18EAD56A2B6C420F0035E40D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD56B2B6C421A0035E40D /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		18EAD56D2B6C421F0035E40D /* TransactionsView */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD56E2B6C42340035E40D /* TransactionsView.swift */,
+			);
+			path = TransactionsView;
+			sourceTree = "<group>";
+		};
+		18EAD5702B6C423A0035E40D /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5712B6C423F0035E40D /* FilterView.swift */,
+			);
+			path = FilterView;
+			sourceTree = "<group>";
+		};
+		18EAD5732B6C433D0035E40D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD57B2B6C43970035E40D /* Theme */,
+				18EAD57A2B6C438E0035E40D /* Initial View */,
+				18EAD5792B6C43890035E40D /* Assets */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		18EAD5742B6C434E0035E40D /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5752B6C43560035E40D /* Views */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		18EAD5752B6C43560035E40D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5762B6C435B0035E40D /* Navigation View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18EAD5762B6C435B0035E40D /* Navigation View */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5772B6C436B0035E40D /* NavigationView.swift */,
+			);
+			path = "Navigation View";
+			sourceTree = "<group>";
+		};
+		18EAD5792B6C43890035E40D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5572B6C3FE40035E40D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		18EAD57A2B6C438E0035E40D /* Initial View */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD5532B6C3FE30035E40D /* WorldOfPAYBACKApp.swift */,
+			);
+			path = "Initial View";
+			sourceTree = "<group>";
+		};
+		18EAD57B2B6C43970035E40D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				18EAD57F2B6C43FE0035E40D /* Theme+Colors.swift */,
+				18EAD57E2B6C43FE0035E40D /* Theme+Constants.swift */,
+				18EAD57C2B6C43FE0035E40D /* Theme+Dimensions.swift */,
+				18EAD57D2B6C43FE0035E40D /* Theme+Fonts.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +274,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EAD5562B6C3FE30035E40D /* ContentView.swift in Sources */,
+				18EAD5672B6C41B80035E40D /* Router.swift in Sources */,
+				18EAD5832B6C43FE0035E40D /* Theme+Colors.swift in Sources */,
+				18EAD5782B6C436B0035E40D /* NavigationView.swift in Sources */,
+				18EAD56C2B6C421A0035E40D /* DashboardView.swift in Sources */,
+				18EAD5652B6C41540035E40D /* RouterView.swift in Sources */,
+				18EAD5802B6C43FE0035E40D /* Theme+Dimensions.swift in Sources */,
+				18EAD5562B6C3FE30035E40D /* MainView.swift in Sources */,
+				18EAD5722B6C423F0035E40D /* FilterView.swift in Sources */,
+				18EAD5822B6C43FE0035E40D /* Theme+Constants.swift in Sources */,
 				18EAD5542B6C3FE30035E40D /* WorldOfPAYBACKApp.swift in Sources */,
+				18EAD5812B6C43FE0035E40D /* Theme+Fonts.swift in Sources */,
+				18EAD5692B6C41DB0035E40D /* AppRoute.swift in Sources */,
+				18EAD56F2B6C42340035E40D /* TransactionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
