@@ -30,6 +30,13 @@ The WorldOfPAYBACK app is a SwiftUI-based iOS application that allows the user t
 - The app will show a loader while data is being loaded.
 - The app will display the total sum of transactions at the bottom of the screen.
 
+## Localization
+App is localized on 4 langages:
+- English
+- Polish
+- Russian
+- Ukrainan
+
 ## Architecture
 The app uses clean architecture uncle Bob, with presentation layer ( MVVM + R ).
 
