@@ -38,7 +38,7 @@ struct DashboardView: View {
         }
         .listStyle(PlainListStyle()) 
         .listRowSeparator(.hidden)
-        .navigationTitle("Transaction-List-Title")
+        .navigationTitle("Transaction-List-Title".localized)
         .toolbar {
             ToolbarItem {
                 ToolBarButton
@@ -46,15 +46,14 @@ struct DashboardView: View {
         }
         .overlay {
             if viewModel.isLoading && viewModel.fetchedTransactions.isEmpty {
-                ProgressView("Fetching-Transactions-Text")
+                ProgressView("Fetching-Transactions-Text".localized)
             }
         }
     }
 
     var HeaderSection: some View {
         HStack{
-            Text("Transactions-Sum")
-                .bold()
+            Text("Transactions-Sum".localized)
                 .font(Theme.Fonts.boldl18)
                 .lineLimit(Theme.Constants.lineLimitOne)
             Text("\(viewModel.sumOfTransactions)")
@@ -79,9 +78,9 @@ struct DashboardView: View {
                 Label("Filter", systemImage: "slider.horizontal.3")
             }
             .sheet(isPresented: $viewModel.filterPickerIsPresented) {
-                FilterView()
+                FilterView(filterPickerIsPresented: $viewModel.filterPickerIsPresented, selectedCategory: viewModel.categorySelection, categories: viewModel.transactionsCategories, performSelection: viewModel.filterTransactionsWith)
             }
-        }
+    }
 }
 
 #Preview {

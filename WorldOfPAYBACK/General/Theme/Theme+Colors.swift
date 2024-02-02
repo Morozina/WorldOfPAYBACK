@@ -10,6 +10,7 @@ import SwiftUI
 extension Theme {
     enum Colors {
         // General
+        static let lightGray       = #colorLiteral(red: 0.949019134, green: 0.9490200877, blue: 0.9705253243, alpha: 1) // red: 242, green: 242, blue: 247
         static let gray            = #colorLiteral(red: 0.6352941176, green: 0.6705882353, blue: 0.7215686275, alpha: 1) // red: 162, green: 171, blue: 184
         static let red             = #colorLiteral(red: 0.8998150229, green: 0.2771501541, blue: 0.4256022573, alpha: 1) // red: 229, green: 71, blue: 109
 

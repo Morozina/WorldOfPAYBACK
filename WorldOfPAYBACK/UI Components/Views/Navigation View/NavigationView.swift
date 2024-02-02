@@ -24,14 +24,14 @@ struct NavigationView: View {
 
     // MARK: - View
     var body: some View {
-        VStack {
-            HStack {
+        VStack(spacing: Theme.Dimensions.defaultLayoutMargin) {
+            HStack(spacing: Theme.Dimensions.defaultLayoutMargin) {
                 Button {
                     onBackAction?()
                 } label: {
                     Image(systemName: "chevron.left")
                         .foregroundColor(.black)
-                        .font(Theme.Fonts.boldl24)
+                        .font(Theme.Fonts.normal20)
                 }
                 Spacer()
                 Text(title)

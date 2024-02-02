@@ -25,6 +25,8 @@ extension Theme {
         // MARK: - Normal
         static let normal56: Font = .system(size: 56)
 
+        static let normal20: Font = .system(size: 20)
+
         static let normal14: Font = .system(size: 14)
 
         static let normal12: Font = .system(size: 12)

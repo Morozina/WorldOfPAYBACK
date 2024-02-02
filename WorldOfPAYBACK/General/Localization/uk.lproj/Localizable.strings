@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  WorldOfPAYBACK
+
+  Created by Vladyslav Moroz on 02/02/2024.
+  
+*/
+
+// Transaction List View
+"Transaction-List-Title" = "Транзакції";
+"Fetching-Transactions-Text" = "Отримання трансакцій...";
+"Transactions-Sum" = "Сума операцій:";
+
+// Search Filter View
+"Search-Filter-View-Title" = "Фільтри";
+"Category-Section-Title" = "Категорія";
+"Category-Section-Footer" = "Виберіть фільтр, який потрібно застосувати до списку транзакцій.";
+"Search-Filter-View-Clear-Button" = "Очистити";
+
+// Internet Connection View
+"Not-Connected-Text" = "Не з'єднано!";
+"Perform-Network-Request" = "Виконайте мережевий запит";
+
+"Is-Connected-Alert-Title" = "Успіх!";
+"Is-Connected-Alert-Message" = "Мережевий запит можна виконати";
+"Is-Connected-Alert-Button-Text" = "OK";
+
+"Not-Connected-Alert-Title" = "Немає підключення до Інтернету";
+"Not-Connected-Alert-Message" = "Увімкніть Wi-Fi або мобільні дані";
+"Not-Connected-Alert-Button-Text" = "Скасувати";
+
+// Error View
+"Empty-Transactions-List-Message" = "Щось пішло не так. Натисніть кнопку «Оновити», щоб повторити спробу.";
+"Fetch-Transactions-Again" = "Знову отримати транзакції.";

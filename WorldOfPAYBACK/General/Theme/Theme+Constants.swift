@@ -23,5 +23,9 @@ extension Theme {
 
         // 1 Line limit
         static let lineLimitOne: Int = 1
+
+        enum FilterView {
+            static let handleSize: CGSize = CGSize(width: 32, height: 4)
+        }
     }
 }

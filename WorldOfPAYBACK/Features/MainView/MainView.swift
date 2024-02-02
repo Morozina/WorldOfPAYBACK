@@ -16,8 +16,8 @@ struct MainView: View {
             switch path {
             case .dashboard:
                 DashboardView(viewModel: DashboardViewModel())
-            case .transaction:
-                TransactionsView()
+            case .transaction(let transaction):
+                TransactionsView(transaction: transaction)
             }
         }
     }

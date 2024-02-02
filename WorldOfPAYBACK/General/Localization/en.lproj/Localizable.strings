@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  WorldOfPAYBACK
+
+  Created by Vladyslav Moroz on 02/02/2024.
+  
+*/
+
+// Transaction List View
+"Transaction-List-Title" = "Transactions";
+"Fetching-Transactions-Text" = "Fetching transactions...";
+"Transactions-Sum" = "Transactions sum:";
+
+// Search Filter View
+"Search-Filter-View-Title" = "Filters";
+"Category-Section-Title" = "Category";
+"Category-Section-Footer" = "Select filter you want to apply to transactions list.";
+"Search-Filter-View-Clear-Button" = "Clear";
+
+// Internet Connection View
+"Not-Connected-Text" = "Not connected!";
+"Perform-Network-Request" = "Perform Network Request";
+
+"Is-Connected-Alert-Title" = "Success!";
+"Is-Connected-Alert-Message" = "The network request can be performed";
+"Is-Connected-Alert-Button-Text" = "OK";
+
+"Not-Connected-Alert-Title" = "No Internet Connection";
+"Not-Connected-Alert-Message" = "Please enable Wifi or Cellular data";
+"Not-Connected-Alert-Button-Text" = "Cancel";
+
+// Error View
+"Empty-Transactions-List-Message" = "Something, went wrong. Click Refresh button to try again.";
+"Fetch-Transactions-Again" = "Fetch transactions again.";
